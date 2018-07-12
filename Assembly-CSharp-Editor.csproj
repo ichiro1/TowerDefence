@@ -44,119 +44,122 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\completed\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\BloomModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\FogModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PostProcessingFactory.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PostProcessingInspector.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PostProcessingMonitor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Utils\CurveEditor.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Utils\EditorResources.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Utils\FxStyles.cs" />
-     <Compile Include="Assets\completed\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
-     <Compile Include="Assets\completed\Scripts\ActionGameFramework\Audio\Editor\HealthChangeAudioSourceEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\ActionGameFramework\Projectiles\Editor\BallisticProjectileEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\Core\Camera\Editor\CameraRigEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\Core\Utilities\Editor\HexPointTests.cs" />
-     <Compile Include="Assets\completed\Scripts\Core\Utilities\Editor\SerializableInterfaceDrawer.cs" />
-     <Compile Include="Assets\completed\Scripts\TowerDefense\Level\Editor\WaveEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\TowerDefense\MeshCreator\Editor\AreaMeshCreatorEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\TowerDefense\Nodes\Editor\NodeEditor.cs" />
-     <Compile Include="Assets\completed\Scripts\TowerDefense\Targetting\Editor\TargetterEditor.cs" />
-     <Compile Include="Assets\completed\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\FogModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PostProcessingFactory.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PostProcessingInspector.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PostProcessingMonitor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Utils\CurveEditor.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Utils\EditorResources.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Utils\FxStyles.cs" />
+     <Compile Include="Assets\WIP\completed\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\ActionGameFramework\Audio\Editor\HealthChangeAudioSourceEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\ActionGameFramework\Projectiles\Editor\BallisticProjectileEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\Core\Camera\Editor\CameraRigEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\Core\Utilities\Editor\HexPointTests.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\Core\Utilities\Editor\SerializableInterfaceDrawer.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\TowerDefense\Level\Editor\WaveEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\TowerDefense\MeshCreator\Editor\AreaMeshCreatorEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\TowerDefense\Nodes\Editor\NodeEditor.cs" />
+     <Compile Include="Assets\WIP\completed\Scripts\TowerDefense\Targetting\Editor\TargetterEditor.cs" />
+     <Compile Include="Assets\WIP\completed\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Timeline">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UIAutomation">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UIAutomation">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.GoogleAudioSpatializer">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.HoloLens">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.VR">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
- <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ <HintPath>/Applications/Unity/Hub/Editor/2017.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/ucode/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

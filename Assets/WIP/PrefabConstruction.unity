@@ -152,24 +152,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114110395140343068, guid: 21b3393884ce5430fa5a1139d1cbaf86,
+    - target: {fileID: 114908555048411220, guid: 21b3393884ce5430fa5a1139d1cbaf86,
         type: 2}
-      propertyPath: radiusEffectColor.r
-      value: 0.48897058
-      objectReference: {fileID: 0}
-    - target: {fileID: 114110395140343068, guid: 21b3393884ce5430fa5a1139d1cbaf86,
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
+    - target: {fileID: 114102408657562234, guid: 21b3393884ce5430fa5a1139d1cbaf86,
         type: 2}
-      propertyPath: radiusEffectColor.g
-      value: 0.6339756
-      objectReference: {fileID: 0}
-    - target: {fileID: 114110395140343068, guid: 21b3393884ce5430fa5a1139d1cbaf86,
-        type: 2}
-      propertyPath: radiusEffectColor.b
-      value: 0.97794116
-      objectReference: {fileID: 0}
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21b3393884ce5430fa5a1139d1cbaf86, type: 2}
   m_IsPrefabParent: 0
+--- !u!135 &339905406 stripped
+SphereCollider:
+  m_PrefabParentObject: {fileID: 135632563463879998, guid: 21b3393884ce5430fa5a1139d1cbaf86,
+    type: 2}
+  m_PrefabInternal: {fileID: 339905405}
 --- !u!1001 &543323134
 Prefab:
   m_ObjectHideFlags: 0
@@ -209,9 +209,30 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114008775889300556, guid: f31a7557f32a247bba9b976b5ff10df7,
+        type: 2}
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
+    - target: {fileID: 114777082639130414, guid: f31a7557f32a247bba9b976b5ff10df7,
+        type: 2}
+      propertyPath: attachedCollider
+      value: 
+      objectReference: {fileID: 339905406}
+    - target: {fileID: 114329103573563502, guid: f31a7557f32a247bba9b976b5ff10df7,
+        type: 2}
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f31a7557f32a247bba9b976b5ff10df7, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &543323135 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114777082639130414, guid: f31a7557f32a247bba9b976b5ff10df7,
+    type: 2}
+  m_PrefabInternal: {fileID: 543323134}
+  m_Script: {fileID: 11500000, guid: d0e4035901ee40bba7c0866d2c6338a1, type: 3}
 --- !u!1 &790718047
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +343,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114987192544365354, guid: 904cd68a0d9e64c57a13b764234449f8,
+        type: 2}
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
+    - target: {fileID: 114811165401359214, guid: 904cd68a0d9e64c57a13b764234449f8,
+        type: 2}
+      propertyPath: damageableBehaviour
+      value: 
+      objectReference: {fileID: 1513071590}
+    - target: {fileID: 114864563435193518, guid: 904cd68a0d9e64c57a13b764234449f8,
+        type: 2}
+      propertyPath: towerTargetter
+      value: 
+      objectReference: {fileID: 543323135}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 904cd68a0d9e64c57a13b764234449f8, type: 2}
   m_IsPrefabParent: 0
