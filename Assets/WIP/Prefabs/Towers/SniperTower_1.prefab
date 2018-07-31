@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 4657128454745024}
   - component: {fileID: 114667369555786724}
   - component: {fileID: 114332078788419840}
+  - component: {fileID: 114021418230214788}
   m_Layer: 0
   m_Name: SniperTowerProjectile_1
   m_TagString: Untagged
@@ -390,6 +391,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 008790df986e3469285ea0c078de4b7f, type: 2}
   m_StaticBatchInfo:
@@ -424,6 +426,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 2f7c7e44c62494e9b94ed951b273cf0c, type: 2}
   m_StaticBatchInfo:
@@ -458,6 +461,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 1bfcbc6372f4d45f19690ea277e1019f, type: 2}
   m_StaticBatchInfo:
@@ -492,6 +496,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 163bb5753cb674db3a38ab3e43593fef, type: 2}
   m_StaticBatchInfo:
@@ -558,6 +563,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!95 &95411666958857252
 Animator:
   serializedVersion: 3
@@ -575,6 +581,32 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114021418230214788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965180880862224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef49f7917004103834ac7530eb81c64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configuration:
+    maxHealth: 0
+    startingHealth: 0
+    alignment:
+      unityObjectReference: {fileID: 0}
+  targetTransform: {fileID: 0}
+  levels: []
+  towerName: 
+  dimensions:
+    x: 0
+    y: 0
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &114102408657562234
 MonoBehaviour:
   m_ObjectHideFlags: 1

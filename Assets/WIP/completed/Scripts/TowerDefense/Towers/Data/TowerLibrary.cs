@@ -14,7 +14,7 @@ namespace TowerDefense.Towers.Data
 		/// <summary>
 		/// The list of all the towers
 		/// </summary>
-		public List<Tower> configurations;
+		public List<TowerLevel> configurations;
 
 		/// <summary>
 		/// The internal reference to the dictionary made from the list of towers
@@ -44,6 +44,7 @@ namespace TowerDefense.Towers.Data
 			{
 				return;
 			}
+
 			m_ConfigurationDictionary = configurations.ToDictionary(t => t.towerName);
 		}
 
